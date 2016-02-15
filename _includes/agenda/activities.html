@@ -62,12 +62,28 @@
               </div>
             </div>
             {% endif %}
-            <p class="col-xs-12 activity-text">{{ act.text }}</p>
+            <div class="col-xs-12 activity-text">
+            <p>{{ act.text }}</p>
+            </div>
+            <div class="divbut">
             {% if act.register %}
+
+            <div class="butspace">
             <a href="{{ act.register }}" target="_blank">
               <button class="btn btn-info btn-sei">Inscrição</button>
             </a>
+            </div>
             {% endif %}
+
+            {% if act.slides %}
+            <div class="butspace">
+            <a href="{{ act.slides }}" target="_blank">
+              <button class="btn btn-info btn-sei">Slides</button>
+            </a>
+            </div>
+            {% endif %}
+          </div>
+            
           </div>
         </div>
       </div>
