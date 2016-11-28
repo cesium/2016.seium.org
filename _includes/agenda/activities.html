@@ -23,7 +23,7 @@
               </div>
               <div class="activity-speaker">
                 {% if act.speaker %}
-                <a href="/speakers/#{{ act.speaker | slugify }}">
+                <a href="{{ site.baseurl }}/speakers/#{{ act.speaker | slugify }}">
                   <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
                 </a>
                 {% endif %}

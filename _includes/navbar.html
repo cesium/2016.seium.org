@@ -4,7 +4,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+      <a class="navbar-brand page-scroll" href="{{ "/" | relative_url }}" id="nav-logo">
         {% image nav-logo.png %}
         <div>
           <span>
@@ -24,19 +24,19 @@
             <a href="#page-top"></a>
           </li>
           <li>
-            <a class="page-scroll" href="/agenda">Agenda</a>
+            <a class="page-scroll" href="{{ "/agenda" | relative_url }}">Agenda</a>
           </li>
           <li>
-            <a class="page-scroll" href="/speakers">Oradores</a>
+            <a class="page-scroll" href="{{ "/speakers" | relative_url }}">Oradores</a>
           </li>
           <li>
-            <a class="page-scroll" href="/heartbits">Hackathon</a>
+            <a class="page-scroll" href="{{ "/heartbits" | relative_url }}">Hackathon</a>
           </li>
           <li>
-            <a class="page-scroll" href="/challenges">Desafios</a>
+            <a class="page-scroll" href="{{ "/challenges" | relative_url }}">Desafios</a>
           </li>
           <li>
-            <a class="page-scroll" href="/accommodation">Alojamento</a>
+            <a class="page-scroll" href="{{ "/accommodation" | relative_url }}">Alojamento</a>
           </li>
           <li>
             <a class="page-scroll" href="http://intra.seium.org" target="_blank">IntraNet</a>
