@@ -1,4 +1,4 @@
-# [SEI16](http://cesium.github.io/sei16-website)
+# [SEI16](https://2016.seium.org)
 
 SEI - Semana da Engenharia Informática, our Computer Engineering Week is an eventful week, fully organized by students for students.
 
